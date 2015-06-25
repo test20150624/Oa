@@ -261,7 +261,7 @@ public class Testcase3 {
 
 		}
 		/**
-		 * 总流程测试1~6z
+		 * 总流程测试1~6zaa1
 		 */
 		@Test
 		public void zlctest(){
@@ -276,7 +276,7 @@ public class Testcase3 {
 					u.fwqc(driver);	//发文起草2
 				    Thread.currentThread().sleep(2000);
 					u.logout();
-				    Thread.currentThread().sleep(2000);
+				    Thread.currentThread().sleep(1000);
 
 
 					u.login(driver, "xzbjl");
@@ -292,11 +292,11 @@ public class Testcase3 {
 					System.out.println("abbbbbbbbbbb");
 				    Thread.currentThread().sleep(3000);
 					u.logout();
-				    Thread.currentThread().sleep(2000);
+				    Thread.currentThread().sleep(1000);
 
 
 					u.login(driver, "dsz");
-				    Thread.currentThread().sleep(4000);
+				    Thread.currentThread().sleep(2000);
 					u.fwqfdsz(driver);  //5发文签发
 				    Thread.currentThread().sleep(2000);
 					u.logout();
