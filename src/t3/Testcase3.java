@@ -249,7 +249,7 @@ public class Testcase3 {
 					Thread.currentThread().sleep(2000);
 					u.login(driver,"xzbyg");
 					Thread.currentThread().sleep(1000);
-					u.wjfs(driver);//文件发�?7
+					u.wjfs(driver);//文件发送
 					System.out.println("****************");
 				Thread.currentThread().sleep(4000);
 
