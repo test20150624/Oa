@@ -1,0 +1,39 @@
+<suite name="OA 测试" parallel="tests" thread-count="2">
+
+<listeners>
+ <listener class-name="org.uncommons.reportng.HTMLReporter" />
+ <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+ </listeners>
+
+    <test name="登陆测试用例" preserve-order="true">
+        <parameter name="test-name" value="test-method One" />
+        <classes>
+            <class name="t3.Testcase1" />
+	 <!--		<methods>
+　　　　　　　 <include name="logintest6" />
+　　　　　 </methods>
+           <class name="t3.Testcase2"/>     -->
+        </classes>
+    </test>
+	<test name="附件测试用例">
+        <parameter name="test-name" value="test-method two" />
+        <classes>
+            <class name="t3.Testcase2" />
+           <!-- <class name="t3.Testcase2"/>     -->
+        </classes>
+    </test>
+	<test name="流程测试用例">
+        <parameter name="test-name" value="test-method two1" />
+        <classes>
+            <class name="t3.Testcase3" />
+           <!-- <class name="t3.Testcase2"/>     -->
+        </classes>
+    </test>
+		<test name="首页测试用例">
+        <parameter name="test-name" value="test-method two1" />
+        <classes>
+            <class name="t3.Testcase4" />
+           <!-- <class name="t3.Testcase2"/>     -->
+        </classes>
+    </test>
+</suite>

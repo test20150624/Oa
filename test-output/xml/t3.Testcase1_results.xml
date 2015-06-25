@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="登陆测试用例"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.214">
+  <properties />
+  
+  
+            <testcase name="logintest6" time="6.112" classname="t3.Testcase1" />
+                <testcase name="logintest3" time="2.681" classname="t3.Testcase1" />
+                <testcase name="logintest1" time="3.616" classname="t3.Testcase1" />
+                <testcase name="logintest4" time="3.014" classname="t3.Testcase1" />
+                <testcase name="logintest2" time="2.820" classname="t3.Testcase1" />
+                <testcase name="logintest5" time="2.971" classname="t3.Testcase1" />
+      
+</testsuite>
